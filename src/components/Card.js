@@ -7,6 +7,11 @@ const Card = props => {
       <div>
         <div style={{ fontWeight: 'bold' }}>{props.name}</div>
         <div>{props.blog}</div>
+        <div>
+          <a href={props.html_url} target='_blank'>
+            Visit Github profile
+          </a>
+        </div>
       </div>
     </div>
   );
